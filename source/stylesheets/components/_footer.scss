@@ -1,0 +1,28 @@
+/* Footer design */
+.footer {
+  background-color: #333333;
+  height: 15vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  align-items: left;
+  color: #CCCCCC;
+  padding: 40px 0;
+
+  li {
+    padding: 20 20 0 5;
+    font-size: 30px;
+  }
+
+  a {
+    color: #CCCCCC;
+    &:hover {
+             color: #FFFF00;
+    }
+  }
+
+  p {
+    margin-top: 17px;
+  }
+}
+
+
+
