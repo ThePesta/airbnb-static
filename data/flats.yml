@@ -6,6 +6,11 @@ seb:
   max_guests: 1
   wifi: true
   background: images/background-paris.jpg
+  bathrooms: 1
+  beds: 1
+  kitchen : false
+  tv: false
+  wifi: true
 anne:
   name: anne
   location: brussels
@@ -14,6 +19,11 @@ anne:
   max_guests: 2
   wifi: false
   background: images/background-bruseels.jpg
+  bathrooms: 2
+  beds: 2
+  kitchen : true
+  tv: true
+  wifi: true
 romain:
   name: romain
   location: london
@@ -22,3 +32,8 @@ romain:
   max_guests: 3
   wifi: true
   background: images/background-london.jpg
+  bathrooms: 9999
+  beds: 9999
+  kitchen : true
+  tv: false
+  wifi: true
