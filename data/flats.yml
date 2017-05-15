@@ -1,10 +1,24 @@
-- owner: seb
+seb:
+  name: seb
   location: paris
   desc: Charming room with patio
-- owner: anne
+  rating: 3
+  max_guests: 1
+  wifi: true
+  background: images/background-paris.jpg
+anne:
+  name: anne
   location: brussels
   desc: Lovely house
-- owner: romain
+  rating: 4
+  max_guests: 2
+  wifi: false
+  background: images/background-bruseels.jpg
+romain:
+  name: romain
   location: london
   desc: Nice flat in Picadilly
-
+  rating: 5
+  max_guests: 3
+  wifi: true
+  background: images/background-london.jpg
