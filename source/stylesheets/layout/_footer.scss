@@ -1,10 +1,10 @@
 /* Footer design */
 .footer {
-  background-color: #333333;
+  background-color: $gray-bg-footer;
   height: 15vh;
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
   align-items: left;
-  color: #CCCCCC;
+  color: $gray-text-footer;
   padding: 40px 0;
 
   li {
@@ -13,9 +13,9 @@
   }
 
   a {
-    color: #CCCCCC;
+    color: $gray-text-footer;
     &:hover {
-             color: #FFFF00;
+             color: $yellow-hover;
     }
   }
 
